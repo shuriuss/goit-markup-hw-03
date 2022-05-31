@@ -353,11 +353,11 @@ img {
 .filter {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
   }
 
 .button-filter {
     display: inline-block;
-    margin-bottom: 50px;
     padding-left: 22px;
     padding-bottom: 6px;
     padding-right: 22px;
