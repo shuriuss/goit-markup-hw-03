@@ -7,8 +7,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
@@ -16,8 +15,8 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="conteiner box-header">
+    <header class="header conteiner">
+        <div class=" box-header">
             <nav class="nav">
                 <div><a href="./index.html" lang="en" class="logo"> <span>Web</span>Studio</a>
                 </div>
@@ -40,34 +39,41 @@
         <button type="button" class="button">Заказать услугу</button>
     </section>
 
-    <section class="benefits conteiner section">
-        <h2>Наши преимущество</h2>  
-         <ul class="benefits-list">
-            <li class="benefits-list-item">
-                <h3>Внимание к деталям</h3>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-            </li>
-            <li class="benefits-list-item">
-                <h3>Пунктуальность</h3>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-            </li>
-            <li class="benefits-list-item">
-                <h3>Планирование</h3>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            </li>
-            <li class="benefits-list-item">
-                <h3>Cовременные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-            </li>
-        </ul>
+    <section class="benefits section">
+        <div class="conteiner">
+            <h2>Наши преимущество</h2>
+            <ul class="benefits-list">
+                <li class="benefits-list-item">
+                    <h3>Внимание к деталям</h3>
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li class="benefits-list-item">
+                    <h3>Пунктуальность</h3>
+                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li class="benefits-list-item">
+                    <h3>Планирование</h3>
+                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li class="benefits-list-item">
+                    <h3>Cовременные технологии</h3>
+                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+
+        </div>
+         
     </section>
-    <section class="work conteiner section">
-        <h2>Чем мы занимаемся</h2>
-        <ul class="work-list">    
-            <li> <img src="./images/box1.jpg" alt="написание кода" width="370"/> </li>
-            <li> <img src="./images/box2.jpg" alt="макет контента на телефон" width="370"/> </li>
-            <li> <img src="./images/box3.jpg" alt="палитра цветов на планшете" width="370"/> </li>
-        </ul>
+    <section class="work section">
+        <div class="conteiner">
+            <h2>Чем мы занимаемся</h2>
+            <ul class="work-list">
+                <li> <img src="./images/box1.jpg" alt="написание кода" width="370" /> </li>
+                <li> <img src="./images/box2.jpg" alt="макет контента на телефон" width="370" /> </li>
+                <li> <img src="./images/box3.jpg" alt="палитра цветов на планшете" width="370" /> </li>
+            </ul>
+        </div>
+       
     </section>
     <section class="comand  section">
         <div class="conteiner">
@@ -75,23 +81,31 @@
             <ul class="comand-list">
                 <li class="comand-list-item">
                     <img src="./images/img.jpg" alt="Игорь Демьяненко" width="270" />
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <div class="about">
+                        <h3>Игорь Демьяненко</h3>
+                        <p>Product Designer</p>
+                    </div>
                 </li>
                 <li class="comand-list-item">
                     <img src="./images/img2.jpg" alt="Ольга Репина" width="270" />
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <div class="about">
+                        <h3>Ольга Репина</h3>
+                        <p>Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="comand-list-item">
                     <img src="./images/img3.jpg" alt="Николай Тарасов" width="270" />
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <div class="about">
+                        <h3>Николай Тарасов</h3>
+                        <p>Marketing</p>
+                    </div>
                 </li>
                 <li class="comand-list-item">
                     <img src="./images/img4.jpg" alt="Михаил Ермаков" width="270" />
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <div class="about">
+                        <h3>Михаил Ермаков</h3>
+                        <p>UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </div>
